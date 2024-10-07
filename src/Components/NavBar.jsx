@@ -15,9 +15,15 @@ const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Link to={"/Genres"}>Genres</Link>
-          </Nav>
+        <Nav className="me-auto">
+        <Link to={"/Genres"}>Genres</Link>
+             </Nav>
+             <Nav className="me-auto">
+
+          <Link to={"/Acteurs"}>Acteurs</Link>
+             </Nav>
+
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
